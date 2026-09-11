@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube History Bulk Delete",
+  "version": "1.0.5",
+  "description": "Adds checkboxes to YouTube's watch history page so you can select several videos and remove them all in one click.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/history*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
