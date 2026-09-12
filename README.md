@@ -12,8 +12,9 @@ own UI uses, just looped across everything you checked.
 1. Open `chrome://extensions`.
 2. Turn on "Developer mode" (top-right toggle).
 3. Click "Load unpacked" and select this `yt-history-bulk-delete` folder.
-4. Go to youtube.com/feed/history. You should see a small checkbox appear
-   in the top-left corner of each video's thumbnail.
+4. Go to youtube.com/feed/history. Once there, refresh and a small checkbox will appear in the top left corner of each video's thumbnail.
+5. Check all that you want to delete and click on "Delete".
+6. Stay on the page while it automatically deletes videos and shorts from your Watch History.
 
 ## Using it
 
